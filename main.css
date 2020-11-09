@@ -1,13 +1,43 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 248, 220),
+    rgb(223, 213, 176)
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+}
+
+#header {
+  display: flex;
+}
+
+h1 {
+  justify-content: center;
+  font-size: 50px;
+  margin: 10px auto;
+}
+
+h2 {
+  justify-content: center;
+  font-size: 50px;
+  margin: 10px auto;
+}
+
+#reset-button {
+  margin: 0 0 35px 0;
+  justify-content: flex-end;
+}
+
 #game-board {
   display: flex;
   flex-wrap: wrap;
   background-color: maroon;
   height: 612px;
   width: 612px;
-}
-
-#reset-button {
-  margin: 0 0 35px 0;
+  margin: 0 auto;
 }
 
 .tile {
@@ -15,4 +45,16 @@
   height: 200px;
   width: 200px;
   background-color: white;
+  justify-content: center;
+}
+
+.display {
+  display: flex;
+}
+
+#player-move {
+  font-size: 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  justify-content: center;
 }
