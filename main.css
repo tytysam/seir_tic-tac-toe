@@ -12,6 +12,7 @@ body {
 
 #header {
   display: flex;
+  margin: 20px 0 20px 0;
 }
 
 h1 {
@@ -27,34 +28,36 @@ h2 {
 }
 
 #reset-button {
-  margin: 0 0 35px 0;
-  justify-content: flex-end;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-decoration: underline;
+  font-weight: bold;
+  justify-content: center;
 }
 
 #game-board {
   display: flex;
   flex-wrap: wrap;
-  background-color: maroon;
-  height: 612px;
-  width: 612px;
+  height: 618px;
+  width: 618px;
   margin: 0 auto;
+  box-shadow: 3px 3px 15px 4px rgba(148, 148, 148, 0.5);
 }
 
 .tile {
-  border: 2px solid black;
+  border: 3px solid black;
   height: 200px;
   width: 200px;
   background-color: white;
-  justify-content: center;
 }
 
 .display {
-  display: flex;
+  padding: 0;
 }
 
 #player-move {
-  font-size: 90px;
+  font-size: 120px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  margin: 0 0 50px 0;
 }
