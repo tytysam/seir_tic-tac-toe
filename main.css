@@ -1,0 +1,18 @@
+#game-board {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: maroon;
+  height: 612px;
+  width: 612px;
+}
+
+#reset-button {
+  margin: 0 0 35px 0;
+}
+
+.tile {
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+}
